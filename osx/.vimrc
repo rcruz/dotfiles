@@ -12,6 +12,7 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'terryma/vim-smooth-scroll'
+Plugin 'kien/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -69,7 +70,7 @@ autocmd FileType ruby set tabstop=2|set shiftwidth=2
 set expandtab
 
 " Smooth mouse scroll
-set mouse=a
-map <ScrollWheelUp> <C-Y><C-Y>
-map <ScrollWheelDown> <C-E><C-E>
+"set mouse=a
+"map <ScrollWheelUp> <C-Y><C-Y>
+"map <ScrollWheelDown> <C-E><C-E>
 
